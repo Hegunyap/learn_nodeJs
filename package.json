@@ -4,6 +4,7 @@
   "description": "learning Node Js",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Hegunyap/learn_nodeJs/issues"
   },
-  "homepage": "https://github.com/Hegunyap/learn_nodeJs#readme"
+  "homepage": "https://github.com/Hegunyap/learn_nodeJs#readme",
+  "dependencies": {
+    "express": "^4.17.0",
+    "nodemon": "^1.19.0"
+  }
 }
